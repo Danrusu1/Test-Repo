@@ -18,6 +18,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/logo_placeholder"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -135,6 +136,7 @@
     </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="bottom"
